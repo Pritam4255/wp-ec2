@@ -2,8 +2,8 @@
 
 apt update
 apt upgrade -y
-apt install nginx
-apt install wget
+apt install nginx -y
+apt install wget -y
 cd /var/www
 wget https://wordpress.org/latest.tar.gz
 sudo tar -xzvf latest.tar.gz
